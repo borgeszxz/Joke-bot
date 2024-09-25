@@ -1,6 +1,6 @@
-# 🌟 Modern Joke Generator
+# 🌟 Joke Generator
 
-Welcome to the Modern Joke Generator! This web app allows users to select a joke category and receive a funny joke directly from the [JokeAPI](https://jokeapi.dev/). The app features a stylish UI with smooth animations and a loading spinner for a modern look and feel.
+Welcome to the Joke Generator! This web app allows users to select a joke category and receive a funny joke directly from the [JokeAPI](https://jokeapi.dev/). The app features a stylish UI with smooth animations and a loading spinner for a modern look and feel.
 
 ## 🎨 Features
 
