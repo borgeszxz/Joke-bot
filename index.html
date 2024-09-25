@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spinkit/1.2.5/spinkit.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Joke Generator</h1>
+        <p>Select a joke category:</p>
+        <select id="category">
+            <option value="Any">Any</option>
+            <option value="Programming">Programming</option>
+            <option value="Misc">Misc</option>
+            <option value="Dark">Dark</option>
+            <option value="Pun">Pun</option>
+            <option value="Spooky">Spooky</option>
+            <option value="Christmas">Christmas</option>
+        </select>
+        <button onclick="getJoke()">Generate Joke</button>
+        <div id="loading" class="loading">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>    
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+    </div>
+    <div id="joke-card" class="joke-card hidden">
+        <div class="joke-content">
+            <span class="close-btn" onclick="closeJokeCard()">×</span>
+            <p id="joke-text">The joke will appear here...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
