@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spinkit/1.2.5/spinkit.min.css">
 
 </head>
+
 <body>
     <div class="container">
         <h1>Joke Generator</h1>
@@ -21,6 +23,16 @@
             <option value="Spooky">Spooky</option>
             <option value="Christmas">Christmas</option>
         </select>
+        <p>Select a language:</p>
+        <select id="language">
+            <option value="en">English</option>
+            <option value="de">German</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="pt">Portuguese</option>
+
+        </select>
+
         <button onclick="getJoke()">Generate Joke</button>
         <div id="loading" class="loading">
             <div class="sk-chase">
@@ -28,7 +40,7 @@
                 <div class="sk-chase-dot"></div>
                 <div class="sk-chase-dot"></div>
                 <div class="sk-chase-dot"></div>
-                <div class="sk-chase-dot"></div>    
+                <div class="sk-chase-dot"></div>
                 <div class="sk-chase-dot"></div>
             </div>
         </div>
