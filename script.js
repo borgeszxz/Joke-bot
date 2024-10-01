@@ -1,7 +1,7 @@
 async function getJoke() {
     const category = document.getElementById('category').value;
     const language = document.getElementById('language').value; 
-    const url = `https://v2.jokeapi.dev/joke/${category}?blacklistFlags=nsfw&lang=${language}`;
+    const url = `https://v2.jokeapi.dev/joke/${category}?blacklistFlags=nsfw,sexist&lang=${language}`;
     const loadingElement = document.getElementById('loading');
     const jokeCard = document.getElementById('joke-card');
     const jokeTextElement = document.getElementById('joke-text');
