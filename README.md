@@ -34,6 +34,6 @@ Welcome to the Joke Generator! This web app allows users to select a joke catego
 
 ## 🔧 Future Improvements
 
-- [ ] Add a translation feature to support multiple languages.
+- [✔️] Add a translation feature to support multiple languages.
 - [ ] Implement user authentication to save favorite jokes.
 - [ ] Add more joke categories.
