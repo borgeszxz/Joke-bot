@@ -9,15 +9,6 @@ Welcome to the Joke Generator! This web app allows users to select a joke catego
 - Jokes are displayed in a stylish modal with smooth transitions.
 - Responsive design for a great experience on both desktop and mobile devices.
 
-
-## 📸 Screenshots
-
-### Home Page
-![Home Page](https://cdn.discordapp.com/attachments/1097281959538991235/1288553730874146876/image.png?ex=66f59aad&is=66f4492d&hm=596b1f639d274a44c2abd18e5f6ab33d4a9187ae0cbb3af81d168cda65daf9cb&)
-
-### Joke Modal
-![Joke Modal](https://cdn.discordapp.com/attachments/1097281959538991235/1288553843306528952/image.png?ex=66f59ac8&is=66f44948&hm=1fb832e960cac6d0a6f6909fa465222ecc90935fcf60ea7cc9b2c0137545b50a&)
-
 ## 🛠️ Installation
 
 1. **Clone the repository:**
