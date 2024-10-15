@@ -31,9 +31,3 @@ Welcome to the Joke Generator! This web app allows users to select a joke catego
 2. Click on the "Generate Joke" button.
 3. Wait for the joke to load while enjoying the spinner animation.
 4. The joke will be displayed in a modal. Click the close button to return to the main screen.
-
-## 🔧 Future Improvements
-
-- [✔️] Add a translation feature to support multiple languages.
-- [ ] Implement user authentication to save favorite jokes.
-- [ ] Add more joke categories.
